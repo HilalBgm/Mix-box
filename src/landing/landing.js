@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import Background from '../public/polygon-1980897_1920.jpg';
+import Background from './../../public/images/polygon-1980897_1920.jpg';
 
 
 class Landing extends Component {
   render() {
     return (
       <div className="Landing">
-          <img src="{Background}"/>
+          <img className="wallpaper" src={Background}/>
       </div>
     );
   }

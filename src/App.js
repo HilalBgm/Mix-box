@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import Landing from './landing.js';
+import Landing from './landing/landing.js';
 import './App.css';
 
 class App extends Component {
