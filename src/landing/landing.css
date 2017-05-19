@@ -3,10 +3,44 @@ body{
   background-image: url('./../../public/images/polygon-1980897_1920.jpg');
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
   width: 100%;
 }
 .wallpaper{
   height: 100vh;
   width:100%;
+}
+
+.login-area{
+  display: flex;
+  justify-content: flex-end;
+  padding: 2vh;
+}
+
+.login-btn{
+  padding: 1vh;
+  display: inline;
+  border: none;
+  border-radius: 1vh;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.login-btn:hover{
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.scroll-icon{
+  display: flex;
+  justify-content: center;
+  margin-top: 40%;
+}
+
+.Fa-scroll{
+ font-size: 10vh;
+ color: rgba(255, 255, 255, 0.5);
 }
